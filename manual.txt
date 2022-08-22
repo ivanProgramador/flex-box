@@ -1,0 +1,88 @@
+
+CONCEITO
+
+Basicamente flex-box é um modelo de posicionamento de elementos criado para o css com o objetivo de evitar um redudancia de 
+codigo em relação ao posicionamneto de elementos na  interface grafica, com o posicionamento automatico o desenvolvedor não
+precisa se preocupara em fazer o codigo apontando o tanmanho de cada elmento a acada vez que elel for gerado porque o flex box
+padroniza o tamanho e divide  atag main em partes iguais.
+
+CONFIGURAÇÃO INICIAL DE POSICIONAMENTO
+
+Todos os elementos que estão de dentro de uma tag main se posicionan de forma vertical no canto esquerdo da interface 
+existem dois eixos imaginarios são eles o eixo X eo Eixo Y. 
+
+X = Linha veritical (Padrão)
+Y = Linha horizontal 
+
+O flex-box aciona um controle geral sobre o container que guarda os elementos tornando eles manipulaveis.por padrão eles 
+ficam alinhados um em cima do outro e alinhados a esquerda. seguindo o eixo x de forma vertical. as opções diposniveis de alinhamento usando flex-box.
+
+<main class="container">
+
+   <div class="modulo-1"> 1</div>
+
+   <div class="modulo-2"> 2 </div>
+
+   <div class="modulo-3"> 3 </div>
+
+</main>
+
+A tag main e da classe container e ela vai  ser controlada atráves da nomenclatura dessa classe.O  codigo abaixo vai fazer com que todos os elementos presentes dentro do container 1 fiquem em um fila horizontal começado a esquerda para a direita
+
+-> 1 2 3 
+
+em relação ao eixos  X e Y a situação se inverteu antes o eixo principal era o eixo X 
+agora os elementos estão seguindo o eixo Y por isso estão ainhados de forma horizontal 
+
+.container1{
+
+	display:flex;
+
+}
+
+
+FLEX-DIRECTION
+
+Como mostrado anteriormente os itens tem uma ordem de posições que podem ser oeintadas apara alinhas os itens a esquerda <- ou a direita ->, atualmente eles estão alinhados a esquerda porque essa e a configuração padrão quando so apontamos o flex.no caso ele esta usando row reverse oque reverte o posicionamento orizontal dos itens e consequentemente do alinhamento horizontal.
+
+ROW-REVERSE
+
+Essa configuração inverte totalmente a posição dos elementos que estaão em linha, tanto
+na parte de ordem da fila quanto na posição deles dentro da linha.
+
+.container2{
+
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+COLUNM-REVERSE 
+
+reverte itens que estejam em colunas em ordem na fila
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
