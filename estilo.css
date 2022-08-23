@@ -38,3 +38,60 @@
 	flex-direction: column-reverse;
 }
 
+
+/*Usanod justify content */
+
+
+.container4{
+
+	display: flex;
+	justify-content:flex-start;
+	
+}
+
+
+
+.container5{
+
+	display: flex;
+	justify-content:flex-end;
+	
+}
+
+
+.container6{
+
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+.container6{
+
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container7{
+
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.container8{
+
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+
+
+
+
